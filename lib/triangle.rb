@@ -34,7 +34,6 @@ attr_accessor :s1, :s2, :s3
   end
   
   class TriangleError < StandardError
-    # triangle error code
   end
   
 end
