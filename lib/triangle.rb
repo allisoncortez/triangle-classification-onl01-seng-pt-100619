@@ -22,7 +22,7 @@ attr_accessor :s1, :s2, :s3
     elsif s1 == s2 || s1 == s3 || s2 == s3
       :isosceles
       
-    elsif s1 != s2 && s1 != s3 && s2 != s3
+    else #s1 != s2 && s1 != s3 && s2 != s3
       :scalene
       
       
