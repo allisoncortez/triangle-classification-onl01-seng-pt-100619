@@ -8,7 +8,7 @@ attr_accessor :s1, :s2, :s3
   end
   
   def kind
-    if (s1*s2*s3) == 0 || (s1 + s2) <= s3 || (s2 + s3) <= s1 || (s2 + s1) <= s3
+    if (s1*s2*s3) == 0 || (s1 + s2) <= s3 || (s2 + s3) <= s1 || (s3 + s1) <= s2
       
       # raise
       begin
